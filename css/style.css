@@ -43,8 +43,12 @@ div{
     text-align: center;
 }
 
+.margin-navbar{
+    margin-bottom: 10vh;
+}
+
 .navbar{
-    display: none;
+/*    display: none;  */
 }
 
 .opacitat100{
