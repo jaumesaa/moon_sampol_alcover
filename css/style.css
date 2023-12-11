@@ -1,4 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in-out;
+		background-color: #9055A2;
+	}
+
+
+	100% {
+		animation-timing-function: ease-in-out;
+		background-color: #bd7fa1;
+	}
+}
+@keyframes myAnim2 {
+	0% {
+		animation-timing-function: ease-in-out;
+		background-color: #bd7fa1;
+	}
+
+
+	100% {
+		animation-timing-function: ease-in-out;
+		background-color: #9055A2;
+	}
+}
+
+
+
 body{
     font-size: 15px;
+}
+.background-color-navbar{
+    background-color: #2e294e;
+}
+.nav-item{
+    background-color: #9055A2;
+    width: 100%;
+    min-width: 20vh;
+    height: 6vh;
+    text-align: center;
+    animation: myAnim2 0.2s ease 0s 1 normal forwards;
+
+
+}
+.nav-item:hover{
+    animation: myAnim 0.2s ease 0s 1 normal forwards;
+}
+.actiu{
+    background-color: #D499B9!important;
+}
+
+.text-navbar{
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 500;
 }
