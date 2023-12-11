@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+/*
 .prova{
     border-width: 2px;
     border-color: black;
@@ -7,6 +7,7 @@
 div{
     border: black 1px solid;
 }
+*/
 
 @keyframes myAnim {
 	0% {
@@ -51,21 +52,45 @@ div{
 /*    display: none;  */
 }
 
+.input-group-append {
+    cursor: pointer;
+  }
+
 .opacitat100{
     opacity: 100%!important;
+}
+
+
+.fondo-div{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    position:static;
+}
+
+.titol-reserva{
+    color: white;
 }
 
 .senyal{
     border: #2e294e 4px solid;
     height: 12vh;
     background-color: #E8C1C5;
-    opacity: 75%;
+}
+
+.senyal-reserva{
+    border: #2e294e 4px solid;
+
 }
 
 .contingut{
     width: 100%;
     height: 100vh;
     background-color: aqua;
+}
+
+.petit{
+    width: 20vh;
 }
 
 body{
